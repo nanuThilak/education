@@ -1,0 +1,20 @@
+.footer {
+  padding: 0 200px;
+  margin-top: 40px;
+}
+.footer p{
+    margin: 20px 0;
+    color: #454545;
+    font-size: 12px;
+}
+
+.footer input {
+    padding: 10px 20px;
+}
+.footer button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+} 

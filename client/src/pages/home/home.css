@@ -1,0 +1,140 @@
+.home__wrapper {
+  background-color: rgb(13, 22, 27);
+  color: white;
+  width: 100%;
+  padding: 50px 200px;
+  text-align: center;
+}
+
+.home__video video {
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.home__product {
+  margin-top: 20px;
+  padding: 0 200px;
+  text-align: center;
+}
+
+.home__product_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.home__learning {
+  margin-top: 40px;
+  padding: 0 200px;
+  text-align: center;
+}
+
+.home__learning h1 {
+  margin: 20px 0;
+}
+.home__learning small {
+  margin-bottom: 20px;
+  color: gray;
+}
+.home__career {
+  margin-top: 40px;
+  padding: 0 200px;
+}
+
+.home__career h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.home__carrer_wrapper p {
+  font: lighter;
+  color: #454545;
+}
+
+.home__career button {
+  color: white;
+  padding: 5px 7px;
+  background-color: black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.home__carrer_wrapper p span {
+  font-weight: bolder;
+  color: black;
+  font-style: italic;
+}
+
+.home__career {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home__background {
+    background-color: black;
+    color: white;
+    padding: 200px;
+    border-radius: 10px;
+}
+.home__background h1 {
+    font-size: 90px;
+    font-family: serif;
+}
+.home__background h3 {
+    font-family: monospace;
+}
+.home__testimonials{
+    padding:  0 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+.home__testimonials_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+@media (max-width: 1500px) {
+  .home__video video {
+    width: 600px;
+  }
+  .home__video {
+    padding: 0;
+  }
+  .home__product_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .home__testimonials_wrapper {
+    flex-direction: column;
+}
+}
+
+@media (max-width: 1000px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__heading h3 {
+    font-size: 12px;
+  }
+  .home__heading p {
+    font-size: 10px;
+  }
+  .home__video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home__video video {
+    width: 200px;
+  }
+
+  .home__product_card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

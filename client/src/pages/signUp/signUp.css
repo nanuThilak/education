@@ -1,0 +1,39 @@
+.signUp {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  height: 800px;
+  background-color: black;
+  color: white;
+}
+
+.signUp__wrapper {
+  margin-top: 150px;
+}
+
+.signUp__wrapper h1 {
+  margin-bottom: 50px;
+}
+
+.signUp__wrapper input {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.signUp__inputEles {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.sigUp__btns {
+  display: flex;
+  justify-content: space-between;
+}
+.sigUp__btns button {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}

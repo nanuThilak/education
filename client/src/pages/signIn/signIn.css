@@ -1,0 +1,39 @@
+.signIn {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  height: 800px;
+  background-color: black;
+  color: white;
+}
+
+.signIn__wrapper {
+  margin-top: 150px;
+}
+
+.signIn__wrapper h1 {
+  margin-bottom: 50px;
+}
+
+.signIn__wrapper input {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.signIn__inputEles {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.sigIn__btns {
+  display: flex;
+  justify-content: space-between;
+}
+.sigIn__btns button {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
